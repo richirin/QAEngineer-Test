@@ -1,0 +1,19 @@
+{
+  "name": "pinduit-qaengineer-test",
+  "version": "1.0.0",
+  "description": "Pinduit QA Engineer Test ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "author": "Richi Ramadhan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "gherkin": "^9.0.0",
+    "puppeteer": "^3.0.0"
+  }
+}
