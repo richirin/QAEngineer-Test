@@ -1,7 +1,8 @@
 Feature: Login
     As a user 
     I can login to website
-
+    
+    @login
     Scenario: User can login to website
         Given I open login page
         When I fill login form

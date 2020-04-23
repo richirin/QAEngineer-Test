@@ -2,6 +2,7 @@ Feature: Order
     As a user 
     I want to order`
 
+    @order
     Scenario: User can order
         Given I want to logging in
         When I want to add product to the cart
